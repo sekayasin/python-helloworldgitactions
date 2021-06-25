@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: sekayasin/python-helloworld:latest
+      - image: docker.io/sekayasin/python-helloworld:latest
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
