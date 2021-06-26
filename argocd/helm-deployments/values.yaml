@@ -1,0 +1,8 @@
+namespace:
+  name: staging
+ 
+image:
+  repository: sekayasin/python-helloworld 
+  tag: latest
+
+replicaCount: 3
